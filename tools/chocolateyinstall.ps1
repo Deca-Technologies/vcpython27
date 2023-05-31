@@ -4,7 +4,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'vcpython27'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.dropbox.com/s/blc4xk29p6i90uy/VCForPython27.msi?dl=1'
+$url        = 'https://www.dropbox.com/s/dl/6ypdyu7suwrzlty/VCForPython27.msi?dl=1'
 
 $packageArgs = @{
   packageName   = $packageName
